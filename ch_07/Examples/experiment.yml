@@ -1,0 +1,18 @@
+User:
+  name: Aquiles
+
+DAQ:
+  name: AnalogDaq
+  port: /dev/ttyACM0
+
+Scan:
+  start: 0V
+  stop: 3.3V
+  num_steps: 20
+  channel_out: 0
+  channel_in: 0
+  delay: 100ms
+
+Saving:
+  filename: data.dat # Files won't be overwritten, but renamed as data_001.dat, etc.
+  folder: /home/aquiles/Data
