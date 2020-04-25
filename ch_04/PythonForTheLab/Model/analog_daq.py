@@ -1,0 +1,2 @@
+class AnalogDaq:
+    pass
